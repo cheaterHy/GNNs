@@ -6,10 +6,6 @@ import numpy as np
 from config import *
 
 
-# pickle 是python自带的模块。它可以将对象序列化，即以二进制文本的形式将内存中的对象写入一个文件，从而永久保存；也可以反向序列化对象，即从保存对象的文本文件读取并构造对象
-# networkx 网络数据结构操作、分析模块
-
-
 def load_data(dataset_str,num_fea):
     if args.type == 'Binary':
         names = [args.feature_type,  'graph', 'train_mask', 'test_mask', 'labeled','regular_simi','degree']
@@ -18,10 +14,10 @@ def load_data(dataset_str,num_fea):
     objects = []
     for i in range(len(names)):
         with open("../data/{}/{}-{}.{}".format(dataset_str, dataset_str, names[i], names[i]),
-                  'rb') as f:  # 读取 data/ind.{dataset_str}.{names[i]}的数据集
-            if sys.version_info > (3, 0):  # 判断python是否为3.0以上（包括3.0）
-                # 使用pickle模块加载数据集对象
-                objects.append(pkl.load(f, encoding='latin1'))  # 读取文件(类似字典)
+                  'rb') as f:  
+            if sys.version_info > (3, 0): 
+
+                objects.append(pkl.load(f, encoding='latin1'))  
             else:
                 objects.append(pkl.load(f))
     if args.type == 'Binary':
@@ -29,7 +25,7 @@ def load_data(dataset_str,num_fea):
     else:
         feature, graph, label = tuple(objects)
 
-    # 图→稀疏的邻接矩阵 Converts a networkx.Graph or networkx.DiGraph to a torch_geometric.data.Data instance.
+
     data = utils.from_networkx(graph)
     # test_feature = np.ones((graph.number_of_nodes(), 4))
     # print(test_feature)
