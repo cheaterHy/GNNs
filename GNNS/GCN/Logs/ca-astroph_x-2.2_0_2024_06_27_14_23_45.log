@@ -1,2 +1,0 @@
-2024-06-27 14:23:45.316 | INFO     | __main__:<module>:73 - Namespace(dataset='ca-astroph', model='GCN', learning_rate=0.01, epochs=9999, hidden_units=16, dropout=0.4, weight_decay=0.01, weight_decay1=0.01, weight_decay2=0.0005, early_stopping=30, residual=True, seed=824, type='Binary', DEVICE='cuda', theta=0.5, layers=64, alpha=0.1, feature_type='x-2.2', CGCN=0)
-2024-06-27 14:23:45.316 | INFO     | __main__:<module>:74 - Data(edge_index=[2, 393944], num_nodes=17903, x=[17903, 1], train_mask=[17903], test_mask=[17903], label=[17903])
