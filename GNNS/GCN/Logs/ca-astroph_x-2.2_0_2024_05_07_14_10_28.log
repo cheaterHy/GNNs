@@ -1,0 +1,35 @@
+2024-05-07 14:10:28.688 | INFO     | __main__:<module>:73 - Namespace(dataset='ca-astroph', model='GCN', learning_rate=0.01, epochs=9999, hidden_units=16, dropout=0.4, weight_decay=0.01, weight_decay1=0.01, weight_decay2=0.0005, early_stopping=30, residual=True, seed=824, type='Binary', DEVICE='cuda', theta=0.5, layers=64, alpha=0.1, feature_type='x-2.2', CGCN=0)
+2024-05-07 14:10:28.689 | INFO     | __main__:<module>:74 - Data(edge_index=[2, 393944], num_nodes=17903, x=[17903, 2], train_mask=[17903], test_mask=[17903], label=[17903])
+2024-05-07 14:10:30.102 | INFO     | __main__:<module>:94 - Epoch: 00, Loss: 1.3236, Train Acc: 0.4553,  Test_Loss: 0.7790,Test Acc: 0.6965,Test F1: 0.6871,Test auc: 0.7723
+2024-05-07 14:10:30.127 | INFO     | __main__:<module>:94 - Epoch: 01, Loss: 0.9629, Train Acc: 0.6192,  Test_Loss: 0.5637,Test Acc: 0.8696,Test F1: 0.8232,Test auc: 0.8799
+2024-05-07 14:10:30.151 | INFO     | __main__:<module>:94 - Epoch: 02, Loss: 0.8901, Train Acc: 0.7197,  Test_Loss: 0.6154,Test Acc: 0.8659,Test F1: 0.8326,Test auc: 0.8994
+2024-05-07 14:10:30.170 | INFO     | __main__:<module>:94 - Epoch: 03, Loss: 0.8165, Train Acc: 0.7123,  Test_Loss: 0.6672,Test Acc: 0.8454,Test F1: 0.8118,Test auc: 0.8841
+2024-05-07 14:10:30.190 | INFO     | __main__:<module>:94 - Epoch: 04, Loss: 0.8961, Train Acc: 0.7076,  Test_Loss: 0.7087,Test Acc: 0.8343,Test F1: 0.8009,Test auc: 0.8757
+2024-05-07 14:10:30.212 | INFO     | __main__:<module>:94 - Epoch: 05, Loss: 0.9095, Train Acc: 0.7165,  Test_Loss: 0.7282,Test Acc: 0.8305,Test F1: 0.7973,Test auc: 0.8729
+2024-05-07 14:10:30.231 | INFO     | __main__:<module>:94 - Epoch: 06, Loss: 0.9015, Train Acc: 0.7104,  Test_Loss: 0.7452,Test Acc: 0.8250,Test F1: 0.7920,Test auc: 0.8687
+2024-05-07 14:10:30.250 | INFO     | __main__:<module>:94 - Epoch: 07, Loss: 0.8163, Train Acc: 0.7314,  Test_Loss: 0.7353,Test Acc: 0.8324,Test F1: 0.7991,Test auc: 0.8743
+2024-05-07 14:10:30.271 | INFO     | __main__:<module>:94 - Epoch: 08, Loss: 0.8453, Train Acc: 0.7337,  Test_Loss: 0.7451,Test Acc: 0.8305,Test F1: 0.7973,Test auc: 0.8729
+2024-05-07 14:10:30.292 | INFO     | __main__:<module>:94 - Epoch: 09, Loss: 0.8527, Train Acc: 0.7286,  Test_Loss: 0.7419,Test Acc: 0.8305,Test F1: 0.7973,Test auc: 0.8729
+2024-05-07 14:10:30.311 | INFO     | __main__:<module>:94 - Epoch: 10, Loss: 0.8038, Train Acc: 0.7253,  Test_Loss: 0.7437,Test Acc: 0.8305,Test F1: 0.7973,Test auc: 0.8729
+2024-05-07 14:10:30.330 | INFO     | __main__:<module>:94 - Epoch: 11, Loss: 0.8681, Train Acc: 0.7100,  Test_Loss: 0.7580,Test Acc: 0.8250,Test F1: 0.7920,Test auc: 0.8687
+2024-05-07 14:10:30.352 | INFO     | __main__:<module>:94 - Epoch: 12, Loss: 0.8867, Train Acc: 0.7304,  Test_Loss: 0.7404,Test Acc: 0.8305,Test F1: 0.7973,Test auc: 0.8729
+2024-05-07 14:10:30.374 | INFO     | __main__:<module>:94 - Epoch: 13, Loss: 0.7981, Train Acc: 0.7244,  Test_Loss: 0.7168,Test Acc: 0.8361,Test F1: 0.8027,Test auc: 0.8771
+2024-05-07 14:10:30.393 | INFO     | __main__:<module>:94 - Epoch: 14, Loss: 0.8739, Train Acc: 0.7207,  Test_Loss: 0.7292,Test Acc: 0.8361,Test F1: 0.8027,Test auc: 0.8771
+2024-05-07 14:10:30.413 | INFO     | __main__:<module>:94 - Epoch: 15, Loss: 0.8282, Train Acc: 0.7295,  Test_Loss: 0.7293,Test Acc: 0.8361,Test F1: 0.8027,Test auc: 0.8771
+2024-05-07 14:10:30.431 | INFO     | __main__:<module>:94 - Epoch: 16, Loss: 0.8639, Train Acc: 0.7244,  Test_Loss: 0.7406,Test Acc: 0.8324,Test F1: 0.7991,Test auc: 0.8743
+2024-05-07 14:10:30.449 | INFO     | __main__:<module>:94 - Epoch: 17, Loss: 0.8223, Train Acc: 0.7286,  Test_Loss: 0.7535,Test Acc: 0.8268,Test F1: 0.7938,Test auc: 0.8701
+2024-05-07 14:10:30.467 | INFO     | __main__:<module>:94 - Epoch: 18, Loss: 0.7537, Train Acc: 0.7309,  Test_Loss: 0.7433,Test Acc: 0.8324,Test F1: 0.7991,Test auc: 0.8743
+2024-05-07 14:10:30.485 | INFO     | __main__:<module>:94 - Epoch: 19, Loss: 0.8440, Train Acc: 0.7197,  Test_Loss: 0.7493,Test Acc: 0.8305,Test F1: 0.7973,Test auc: 0.8729
+2024-05-07 14:10:30.502 | INFO     | __main__:<module>:94 - Epoch: 20, Loss: 0.8541, Train Acc: 0.7318,  Test_Loss: 0.7538,Test Acc: 0.8305,Test F1: 0.7973,Test auc: 0.8729
+2024-05-07 14:10:30.520 | INFO     | __main__:<module>:94 - Epoch: 21, Loss: 0.8532, Train Acc: 0.7142,  Test_Loss: 0.7148,Test Acc: 0.8361,Test F1: 0.8027,Test auc: 0.8771
+2024-05-07 14:10:30.540 | INFO     | __main__:<module>:94 - Epoch: 22, Loss: 0.7984, Train Acc: 0.7169,  Test_Loss: 0.7045,Test Acc: 0.8417,Test F1: 0.8081,Test auc: 0.8813
+2024-05-07 14:10:30.562 | INFO     | __main__:<module>:94 - Epoch: 23, Loss: 0.8461, Train Acc: 0.7244,  Test_Loss: 0.7074,Test Acc: 0.8417,Test F1: 0.8081,Test auc: 0.8813
+2024-05-07 14:10:30.585 | INFO     | __main__:<module>:94 - Epoch: 24, Loss: 0.7380, Train Acc: 0.7426,  Test_Loss: 0.7050,Test Acc: 0.8417,Test F1: 0.8081,Test auc: 0.8813
+2024-05-07 14:10:30.609 | INFO     | __main__:<module>:94 - Epoch: 25, Loss: 0.8259, Train Acc: 0.7230,  Test_Loss: 0.6997,Test Acc: 0.8417,Test F1: 0.8081,Test auc: 0.8813
+2024-05-07 14:10:30.635 | INFO     | __main__:<module>:94 - Epoch: 26, Loss: 0.8053, Train Acc: 0.7174,  Test_Loss: 0.6992,Test Acc: 0.8454,Test F1: 0.8118,Test auc: 0.8841
+2024-05-07 14:10:30.654 | INFO     | __main__:<module>:94 - Epoch: 27, Loss: 0.7860, Train Acc: 0.7211,  Test_Loss: 0.6833,Test Acc: 0.8510,Test F1: 0.8174,Test auc: 0.8883
+2024-05-07 14:10:30.673 | INFO     | __main__:<module>:94 - Epoch: 28, Loss: 0.9015, Train Acc: 0.7128,  Test_Loss: 0.6898,Test Acc: 0.8492,Test F1: 0.8155,Test auc: 0.8869
+2024-05-07 14:10:30.690 | INFO     | __main__:<module>:94 - Epoch: 29, Loss: 0.8555, Train Acc: 0.7323,  Test_Loss: 0.6791,Test Acc: 0.8529,Test F1: 0.8192,Test auc: 0.8897
+2024-05-07 14:10:30.708 | INFO     | __main__:<module>:94 - Epoch: 30, Loss: 0.8264, Train Acc: 0.7086,  Test_Loss: 0.6814,Test Acc: 0.8529,Test F1: 0.8192,Test auc: 0.8897
+2024-05-07 14:10:30.725 | INFO     | __main__:<module>:94 - Epoch: 31, Loss: 0.9183, Train Acc: 0.7104,  Test_Loss: 0.7013,Test Acc: 0.8417,Test F1: 0.8081,Test auc: 0.8813
+2024-05-07 14:10:30.725 | INFO     | __main__:<module>:113 - 1.9663400650024414

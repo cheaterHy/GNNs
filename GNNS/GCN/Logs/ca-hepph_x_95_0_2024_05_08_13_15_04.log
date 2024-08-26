@@ -1,0 +1,34 @@
+2024-05-08 13:15:04.413 | INFO     | __main__:<module>:74 - Namespace(dataset='ca-hepph', model='GCN', learning_rate=0.01, epochs=9999, hidden_units=16, dropout=0.4, weight_decay=0.01, weight_decay1=0.01, weight_decay2=0.0005, early_stopping=30, residual=True, seed=824, type='Binary', DEVICE='cuda', theta=0.5, layers=64, alpha=0.1, feature_type='x_95', CGCN=0)
+2024-05-08 13:15:04.413 | INFO     | __main__:<module>:75 - Data(edge_index=[2, 235238], num_nodes=11204, x=[11204, 10], train_mask=[11204], test_mask=[11204], label=[11204])
+2024-05-08 13:15:06.599 | INFO     | __main__:<module>:95 - Epoch: 00, Loss: 13.7234, Train Acc: 0.7433,  Test_Loss: 1.8587,Test Acc: 0.7917,Test F1: 0.7619,Test auc: 0.8438
+2024-05-08 13:15:06.618 | INFO     | __main__:<module>:95 - Epoch: 01, Loss: 4.4681, Train Acc: 0.8006,  Test_Loss: 2.2040,Test Acc: 0.8006,Test F1: 0.7698,Test auc: 0.8504
+2024-05-08 13:15:06.637 | INFO     | __main__:<module>:95 - Epoch: 02, Loss: 5.1215, Train Acc: 0.7731,  Test_Loss: 2.1028,Test Acc: 0.8095,Test F1: 0.7778,Test auc: 0.8571
+2024-05-08 13:15:06.656 | INFO     | __main__:<module>:95 - Epoch: 03, Loss: 4.5387, Train Acc: 0.7932,  Test_Loss: 2.0335,Test Acc: 0.8095,Test F1: 0.7778,Test auc: 0.8571
+2024-05-08 13:15:06.676 | INFO     | __main__:<module>:95 - Epoch: 04, Loss: 4.5977, Train Acc: 0.7805,  Test_Loss: 2.0372,Test Acc: 0.8095,Test F1: 0.7778,Test auc: 0.8571
+2024-05-08 13:15:06.700 | INFO     | __main__:<module>:95 - Epoch: 05, Loss: 3.9844, Train Acc: 0.8043,  Test_Loss: 1.9993,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:06.726 | INFO     | __main__:<module>:95 - Epoch: 06, Loss: 5.1352, Train Acc: 0.7894,  Test_Loss: 1.9573,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:06.754 | INFO     | __main__:<module>:95 - Epoch: 07, Loss: 4.0084, Train Acc: 0.8013,  Test_Loss: 1.9558,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:06.782 | INFO     | __main__:<module>:95 - Epoch: 08, Loss: 4.2986, Train Acc: 0.7783,  Test_Loss: 1.9461,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:06.808 | INFO     | __main__:<module>:95 - Epoch: 09, Loss: 4.3890, Train Acc: 0.7820,  Test_Loss: 1.9486,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:06.844 | INFO     | __main__:<module>:95 - Epoch: 10, Loss: 3.6395, Train Acc: 0.7909,  Test_Loss: 1.9675,Test Acc: 0.8095,Test F1: 0.7778,Test auc: 0.8571
+2024-05-08 13:15:06.870 | INFO     | __main__:<module>:95 - Epoch: 11, Loss: 4.2036, Train Acc: 0.7917,  Test_Loss: 1.9563,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:06.901 | INFO     | __main__:<module>:95 - Epoch: 12, Loss: 4.6305, Train Acc: 0.7894,  Test_Loss: 1.9497,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:06.932 | INFO     | __main__:<module>:95 - Epoch: 13, Loss: 3.9902, Train Acc: 0.8058,  Test_Loss: 1.9345,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:06.960 | INFO     | __main__:<module>:95 - Epoch: 14, Loss: 4.0610, Train Acc: 0.7865,  Test_Loss: 1.9272,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:06.988 | INFO     | __main__:<module>:95 - Epoch: 15, Loss: 4.3107, Train Acc: 0.8036,  Test_Loss: 1.9216,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.013 | INFO     | __main__:<module>:95 - Epoch: 16, Loss: 4.4662, Train Acc: 0.7746,  Test_Loss: 1.9133,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.047 | INFO     | __main__:<module>:95 - Epoch: 17, Loss: 3.5696, Train Acc: 0.7969,  Test_Loss: 1.8967,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.082 | INFO     | __main__:<module>:95 - Epoch: 18, Loss: 4.3463, Train Acc: 0.7909,  Test_Loss: 1.8960,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.112 | INFO     | __main__:<module>:95 - Epoch: 19, Loss: 6.3201, Train Acc: 0.7827,  Test_Loss: 1.9007,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.132 | INFO     | __main__:<module>:95 - Epoch: 20, Loss: 3.5619, Train Acc: 0.7991,  Test_Loss: 1.9383,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.149 | INFO     | __main__:<module>:95 - Epoch: 21, Loss: 3.9366, Train Acc: 0.7917,  Test_Loss: 1.9387,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.172 | INFO     | __main__:<module>:95 - Epoch: 22, Loss: 5.3431, Train Acc: 0.7946,  Test_Loss: 1.9457,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.195 | INFO     | __main__:<module>:95 - Epoch: 23, Loss: 4.3013, Train Acc: 0.7879,  Test_Loss: 1.9500,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.212 | INFO     | __main__:<module>:95 - Epoch: 24, Loss: 4.6085, Train Acc: 0.7805,  Test_Loss: 1.9538,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.230 | INFO     | __main__:<module>:95 - Epoch: 25, Loss: 3.7326, Train Acc: 0.7991,  Test_Loss: 1.9497,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.249 | INFO     | __main__:<module>:95 - Epoch: 26, Loss: 4.2039, Train Acc: 0.7842,  Test_Loss: 1.9516,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.263 | INFO     | __main__:<module>:95 - Epoch: 27, Loss: 4.4669, Train Acc: 0.7932,  Test_Loss: 1.9439,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.279 | INFO     | __main__:<module>:95 - Epoch: 28, Loss: 3.8082, Train Acc: 0.8006,  Test_Loss: 1.9303,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.296 | INFO     | __main__:<module>:95 - Epoch: 29, Loss: 4.5917, Train Acc: 0.7954,  Test_Loss: 1.9358,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.313 | INFO     | __main__:<module>:95 - Epoch: 30, Loss: 3.5766, Train Acc: 0.7842,  Test_Loss: 1.9864,Test Acc: 0.8125,Test F1: 0.7805,Test auc: 0.8594
+2024-05-08 13:15:07.314 | INFO     | __main__:<module>:113 - 2.7946510314941406
